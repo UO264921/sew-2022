@@ -1,0 +1,27 @@
+/* Iyan Sanjurjo - UO264921 */
+
+
+body {
+    display: grid;
+    grid-template-areas:
+    "nav nav nav"
+    ". header ."
+    ". main ."
+    ". footer .";
+    grid-template-columns: 10% 80% 10%;
+}
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}

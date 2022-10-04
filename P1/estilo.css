@@ -1,0 +1,65 @@
+/* Iyan Sanjurjo - UO264921 */
+
+body {
+    font-family: Tahoma, sans-serif;
+    color: #050101;
+    background-color: #fff;
+}
+
+header {
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+section {
+    padding: 1em 2em 1em 2em;
+}
+
+footer {
+    text-align: center;
+}
+
+nav {
+    overflow: hidden;
+    border: 1px solid;
+    color: #000000;
+    background-color:#cfd8e6;
+}
+
+nav a {
+    float: left;
+    display: inherit;
+    color: #000000;
+    background-color:#cfd8e6;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #a5b7cf;
+    color: black;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+}
+
+td,
+th {
+    background-color: rgb(203, 214, 231);
+    color: black;
+    text-align: center;
+    padding: 1em;
+}
+
+video{
+    width: 100%;
+}
