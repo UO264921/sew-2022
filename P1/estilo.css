@@ -6,6 +6,11 @@ body {
     background-color: #fff;
 }
 
+h1{
+    color: #000000;
+    background-color: #fff;
+}
+
 header {
     color: #000;
     background-color: rgb(255, 255, 255);
@@ -28,12 +33,11 @@ nav {
 }
 
 nav a {
-    float: left;
-    display: inherit;
     color: #000000;
     background-color:#cfd8e6;
     padding: 1em 1em;
     text-decoration: none;
+    text-align: center;
 }
 
 nav a:hover {

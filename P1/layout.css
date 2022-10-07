@@ -4,7 +4,7 @@
 body {
     display: grid;
     grid-template-areas:
-    "nav nav nav"
+    ". nav ."
     ". header ."
     ". main ."
     ". footer .";
@@ -16,6 +16,10 @@ header {
 
 nav {
     grid-area: nav;
+    display: grid;
+    grid-template-areas:
+    "a a a a";
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 main {
