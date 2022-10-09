@@ -14,12 +14,10 @@ header {
     grid-area: header;
 }
 
-nav {
+nav { 
     grid-area: nav;
-    display: grid;
-    grid-template-areas:
-    "a a a a";
-    grid-template-columns: 25% 25% 25% 25%;
+    display: flex; 
+    flex-wrap: wrap; 
 }
 
 main {

@@ -26,16 +26,14 @@ footer {
 }
 
 nav {
-    border: 0.05em solid;
     color: #000000;
     background-color:#cfd8e6;
 }
 
 nav a {
-    border: 0.05em solid;
     color: #000000;
     background-color:#cfd8e6;
-    padding: 1em 1em;
+    padding: 1em 1em 1em 1em;
     text-decoration: none;
     text-align: center;
 }
@@ -48,7 +46,7 @@ nav a:hover {
 table,
 th,
 td {
-    border: 1px solid black;
+    border: 0.05em solid black;
     border-collapse: collapse;
 }
 
