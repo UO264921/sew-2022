@@ -1,6 +1,17 @@
 /* Iyan Sanjurjo - UO264921 */
+/*
+    Hoja de estilo que define el layout grid para la estructura de la web.
+        Con el estilo: 
+            . nav .
+            . header .
+            . main .
+            . footer .
+    Define a su vez el layout flex para la barra de navegación
+        Con el estilo:
+            flex-wrap:wrap
+*/
 
-
+/* a=0 b=0 c=1 especificidad: 001 */
 body {
     display: grid;
     grid-template-areas:
@@ -8,22 +19,27 @@ body {
     ". header ."
     ". main ."
     ". footer .";
-    grid-template-columns: 10% 80% 10%;
+    grid-template-columns: 5% 90% 5%;
 }
+
+/* a=0 b=0 c=1 especificidad: 001 */
 header {
     grid-area: header;
 }
 
+/* a=0 b=0 c=1 especificidad: 001 */
 nav { 
     grid-area: nav;
     display: flex; 
     flex-wrap: wrap; 
 }
 
+/* a=0 b=0 c=1 especificidad: 001 */
 main {
     grid-area: main;
 }
 
+/* a=0 b=0 c=1 especificidad: 001 */
 footer {
     grid-area: footer;
 }
