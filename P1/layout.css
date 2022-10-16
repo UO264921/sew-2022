@@ -2,24 +2,27 @@
 /*
     Hoja de estilo que define el layout grid para la estructura de la web.
         Con el estilo: 
-            . nav .
-            . header .
-            . main .
-            . footer .
-    Define a su vez el layout flex para la barra de navegación
+            ". nav nav ."
+            " . header header ."
+            ". main main ."
+            ". footer footer.";
+    Define a su vez el layout grid para la barra de navegación
         Con el estilo:
-            flex-wrap:wrap
+            grid-template-columns: repeat(auto-fill, minmax(20em,1fr));
+    Y por ultimo el layout grid para el main del sitio web
+        Con el estilo:
+            grid-template-columns: repeat(auto-fill, minmax(28em,1fr));
 */
 
 /* a=0 b=0 c=1 especificidad: 001 */
 body {
     display: grid;
     grid-template-areas:
-    ". nav ."
-    ". header ."
-    ". main ."
-    ". footer .";
-    grid-template-columns: 5% 90% 5%;
+    ". nav nav ."
+    " . header header ."
+    ". main main ."
+    ". footer footer.";
+    grid-template-columns: 15% 35% 35% 15%;
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
@@ -30,14 +33,17 @@ header {
 /* a=0 b=0 c=1 especificidad: 001 */
 nav { 
     grid-area: nav;
-    display: flex; 
-    flex-wrap: wrap; 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20em,1fr));
 }
 
 /* a=0 b=0 c=1 especificidad: 001 */
 main {
     grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(28em,1fr));
 }
+
 
 /* a=0 b=0 c=1 especificidad: 001 */
 footer {
