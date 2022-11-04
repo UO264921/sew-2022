@@ -1,6 +1,7 @@
-main {
-	grid-area:main;
+section {
+	grid-area:section;
 	background-color: #919191;
+	color:black;
 	border-style: solid;
 	border-width: 0.1em;
 	border-color: black;
@@ -11,6 +12,18 @@ header{
 h1{
 	font-size: 3em;
 }
+h2{
+	color: white;
+	background-color: black;
+	text-align: center;
+	padding: 0.4em;
+}
+article{
+	display: grid;
+	grid-template-areas: "input input input input";
+	background-color: rgb(172, 102, 84);
+	color: black;
+}
 body {
 	padding-left: 10em;
 	padding-right: 10em;
@@ -18,24 +31,18 @@ body {
 	display: grid;
 	grid-template-areas: 
 	". header ."
-	". main ."
-	". main ."
-	". main .";
+	". section ."
+	". section ."
+	". section .";
 	grid-template-rows: 25% 50% 25%;
 	
-}
-
-section{
-	display: grid;
-	grid-template-areas: "input input input input";
-	grid-template-columns: 4;
-	grid-template-rows: 1;
 }
 
 input[type=button]{
 	padding: 1em;
 	margin: 1em;
 	background-color: white;
+	color:black;
 	border-style: solid;
 	border-width: 0.1em;
 	border-color: black;
@@ -46,14 +53,11 @@ input[type=text]{
 	padding: 1em;
 	margin: 1em;
 	background-color: white;
+	color:black;
 	border-style: solid;
 	border-width: 0.1em;
 	border-color: black;
 	font-size: 1em;
 	
-}
-
-main:nth-child(2){
-	background-color: rgb(172, 102, 84)
 }
 

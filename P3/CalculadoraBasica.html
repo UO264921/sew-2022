@@ -13,39 +13,33 @@
 	<header>
 		<h1>Calculadora Basica</h1> 
 	</header>
-		<main>
+		<section>
+			<h2>Calculadora</h2>
 			<input title="pantalla" type="text" disabled />
-			<section>
+			<article>
+				<h2>Milán</h2>
 				<input type="button" value="mrc" onClick = "calculadoraBasica.mrc()">
 				<input type="button" value="m-" onClick = "calculadoraBasica.mMenos()">
 				<input type="button" value="m+" onClick = "calculadoraBasica.mMas()">
 				<input type="button" value="/" onClick = "calculadoraBasica.division()">
-			</section>
-			<section>
 				<input type="button" value="7" onClick = "calculadoraBasica.digitos('7')">
 				<input type="button" value="8" onClick = "calculadoraBasica.digitos('8')">
 				<input type="button" value="9" onClick = "calculadoraBasica.digitos('9')">
 				<input type="button" value="*" onClick = "calculadoraBasica.multiplicacion()">
-			</section>
-			<section>
 				<input type="button" value="4" onClick = "calculadoraBasica.digitos('4')">
 				<input type="button" value="5" onClick = "calculadoraBasica.digitos('5')">
 				<input type="button" value="6" onClick = "calculadoraBasica.digitos('6')">
 				<input type="button" value="-" onClick = "calculadoraBasica.resta()">
-			</section>
-			<section>
 				<input type="button" value="1" onClick = "calculadoraBasica.digitos('1')">
 				<input type="button" value="2" onClick = "calculadoraBasica.digitos('2')">
 				<input type="button" value="3" onClick = "calculadoraBasica.digitos('3')">
 				<input type="button" value="+" onClick = "calculadoraBasica.suma()">
-			</section>
-			<section>
 				<input type="button" value="0" onClick = "calculadoraBasica.digitos('0')">
 				<input type="button" value="." onClick = "calculadoraBasica.punto()">
 				<input type="button" value="C" onClick = "calculadoraBasica.borrar()">
 				<input type="button" value="=" onClick = "calculadoraBasica.igual()">
-			</section>
-		</main>
+			</article>
+		</section>
 	<script src="CalculadoraBasica.js"></script>
 </body>
 </html>
