@@ -1,0 +1,59 @@
+main {
+	grid-area:main;
+	background-color: #919191;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+}
+header{
+	grid-area: header;
+}
+h1{
+	font-size: 3em;
+}
+body {
+	padding-left: 10em;
+	padding-right: 10em;
+	text-align: center;
+	display: grid;
+	grid-template-areas: 
+	". header ."
+	". main ."
+	". main ."
+	". main .";
+	grid-template-rows: 25% 50% 25%;
+	
+}
+
+section{
+	display: grid;
+	grid-template-areas: "input input input input";
+	grid-template-columns: 4;
+	grid-template-rows: 1;
+}
+
+input[type=button]{
+	padding: 1em;
+	margin: 1em;
+	background-color: white;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+	font-size: 1em;
+}
+
+input[type=text]{
+	padding: 1em;
+	margin: 1em;
+	background-color: white;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+	font-size: 1em;
+	
+}
+
+main:nth-child(2){
+	background-color: rgb(172, 102, 84)
+}
+
