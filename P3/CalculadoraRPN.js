@@ -326,3 +326,48 @@ class CalculadoraRPN {
 	}
 }
 var calculadoraRPN = new CalculadoraRPN();
+
+document.addEventListener('keydown', (event) => {
+	const keyName = event.key;
+	switch (keyName){
+		case('0'): calculadoraRPN.digitos('0');break;
+		case('1'): calculadoraRPN.digitos('1');break;
+		case('2'): calculadoraRPN.digitos('2');break;
+		case('3'): calculadoraRPN.digitos('3');break;
+		case('4'): calculadoraRPN.digitos('4');break;
+		case('5'): calculadoraRPN.digitos('5');break;
+		case('6'): calculadoraRPN.digitos('6');break;
+		case('7'): calculadoraRPN.digitos('7');break;
+		case('8'): calculadoraRPN.digitos('8');break;
+		case('9'): calculadoraRPN.digitos('9');break;
+		case('+'): calculadoraRPN.suma();break;
+		case('-'): calculadoraRPN.resta();break;
+		case('p'): calculadoraRPN.multiplicacion();break;
+		case('d'): calculadoraRPN.division();break;
+		case('m'): calculadoraRPN.mrc();break;
+		case('n'): calculadoraRPN.mMenos();break;
+		case('o'): calculadoraRPN.mMas();break;
+		case('l'): calculadoraRPN.modulo();break;
+		case('r'): calculadoraRPN.raiz();break;
+		case('.'): calculadoraRPN.punto();break;
+		case('c'): calculadoraRPN.borrarTodo();break;
+		case('u'): calculadoraRPN.cuadrado();break;
+		case('t'): calculadoraRPN.potencia();break;
+		case('e'): calculadoraRPN.seno();break;
+		case('h'): calculadoraRPN.coseno();break;
+		case('k'): calculadoraRPN.secante();break;
+		case('j'): calculadoraRPN.cosecante();break;
+		case('a'): calculadoraRPN.tangente();break;
+        case('¡'): calculadoraRPN.cotangente();break;
+		case('z'): calculadoraRPN.potenciaDiez();break;
+		case('g'): calculadoraRPN.logaritmo();break;
+		case('x'): calculadoraRPN.exponencial();break;
+		case('b'): calculadoraRPN.borrarDigito();break;
+		case('q'): calculadoraRPN.pi();break;
+		case('f'): calculadoraRPN.factorial();break;
+		case('º'): calculadoraRPN.parentesis();break;
+        case('i'): calculadoraRPN.apilar();break;
+        case('y'): calculadoraRPN.desapilar();break;
+        case('v'): calculadoraRPN.absoluto();break;
+	}
+  });

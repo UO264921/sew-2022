@@ -9,6 +9,7 @@ section {
     "article";
     grid-template-columns: 100%;
 	background-color: #efefff;
+    color: black;
     grid-area: section;
     text-align: center;
     border-style: solid;
