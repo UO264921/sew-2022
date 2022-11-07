@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="author" content="Iyan Sanjurjo" />
+        <meta name="description" content="Documento de la Calculadora RPN" />
+        <meta name="keywords" content="HTML" />
+        <meta name="viewport" content="width=device-width, initial scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>Calculadora de fechas</title>
+        <link rel="stylesheet" href="CalculadoraEspecializada.css"/>
+    </head>
+<body>
+	<header>
+		<h1>Calculadora de días entre dos fechas</h1>   
+	</header>
+    <section class="cuerpo">
+        <h2>Calculadora</h2>
+        <label for="pila">SOLUCIÓN</label>
+        <input type="text" id="pila" disabled />
+        <label for="pantalla">FECHA (AÑO/MES/DÍA)</label>
+        <input type="text" id="pantalla" disabled />
+        <article>
+            <h2>Date Calculator</h2>
+            <input type="button" value="C" onClick = "calculadoraEspecializada.borrarTodo()">
+            <input type="button" value="/" onClick = "calculadoraEspecializada.barra()">
+            <input type="button" value="&#129092;" onClick = "calculadoraEspecializada.borrarDigito()">
+            <input type="button" value="7" onClick = "calculadoraEspecializada.digitos('7')">
+            <input type="button" value="8" onClick = "calculadoraEspecializada.digitos('8')">
+            <input type="button" value="9" onClick = "calculadoraEspecializada.digitos('9')">
+            <input type="button" value="4" onClick = "calculadoraEspecializada.digitos('4')">
+            <input type="button" value="5" onClick = "calculadoraEspecializada.digitos('5')">
+            <input type="button" value="6" onClick = "calculadoraEspecializada.digitos('6')">
+            <input type="button" value="1" onClick = "calculadoraEspecializada.digitos('1')">
+            <input type="button" value="2" onClick = "calculadoraEspecializada.digitos('2')">
+            <input type="button" value="3" onClick = "calculadoraEspecializada.digitos('3')">
+            <input type="button" value="enter" onClick = "calculadoraEspecializada.apilar()">	
+            <input type="button" value="0" onClick = "calculadoraEspecializada.digitos('0')">
+            <input type="button" value="-" onClick = "calculadoraEspecializada.restaFechas()">
+        </article>
+    </section>
+	<script src="CalculadoraEspecializada.js"></script>
+</body>
+</html>
