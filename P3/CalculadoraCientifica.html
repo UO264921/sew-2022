@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="author" content="Iyan Sanjurjo" />
+    <meta name="description" content="Documento de la Calculadora Cientifica" />
+    <meta name="keywords" content="HTML" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <meta charset="UTF-8" />
+	<title>Calculadora Científica</title>
+	<link rel="stylesheet" href="CalculadoraCientifica.css"/>
+</head>
+<body>
+	<header>
+		<h1>Calculadora Científica</h1> 
+	</header>
+		<section>
+			<h2>Calculadora</h2>
+			<label for="pantalla">Salida</label>
+			<input title="pantalla" name="pantalla" id = "pantalla" type="text" disabled />
+			<article>
+				<h2>Milán</h2>
+				<input type="button" value="x&#178;" onClick = "calculadoraCientifica.cuadrado()">
+				<input type="button" value="x&#696;" onClick = "calculadoraCientifica.potencia()">
+				<input type="button" value="sin" onClick = "calculadoraCientifica.seno()">
+				<input type="button" value="cos" onClick = "calculadoraCientifica.coseno()">
+				<input type="button" value="tan" onClick = "calculadoraCientifica.tangente()">
+				<input type="button" value="&#8730;" onClick = "calculadoraCientifica.raiz()">
+				<input type="button" value="10&#829;" onClick = "calculadoraCientifica.potenciaDiez()">
+				<input type="button" value="log" onClick = "calculadoraCientifica.logaritmo()">
+				<input type="button" value="exp" onClick = "calculadoraCientifica.exponencial()">
+				<input type="button" value="mod" onClick = "calculadoraCientifica.modulo()">
+				<input type="button" value="m-" onClick = "calculadoraCientifica.mMenos()">
+				<input type="button" value="m+" onClick = "calculadoraCientifica.mMas()">
+				<input type="button" value="csc" onClick = "calculadoraCientifica.cosecante()">
+				<input type="button" value="sec" onClick = "calculadoraCientifica.secante()">
+				<input type="button" value="cot" onClick = "calculadoraCientifica.cotangente()">
+				<input type="button" value="mrc" onClick = "calculadoraCientifica.mrc()">
+				<input type="button" value="CE" onClick = "calculadoraCientifica.borrar()">
+				<input type="button" value="C" onClick = "calculadoraCientifica.borrar()">
+				<input type="button" value="&#129092;" onClick = "calculadoraCientifica.borrarDigito()">
+				<input type="button" value="&#247;" onClick = "calculadoraCientifica.division()">
+				<input type="button" value="&#120587;" onClick = "calculadoraCientifica.pi()">
+				<input type="button" value="7" onClick = "calculadoraCientifica.digitos('7')">
+				<input type="button" value="8" onClick = "calculadoraCientifica.digitos('8')">
+				<input type="button" value="9" onClick = "calculadoraCientifica.digitos('9')">
+				<input type="button" value="&#10005;" onClick = "calculadoraCientifica.multiplicacion()">
+				<input type="button" value="n!" onClick = "calculadoraCientifica.factorial()">
+				<input type="button" value="4" onClick = "calculadoraCientifica.digitos('4')">
+				<input type="button" value="5" onClick = "calculadoraCientifica.digitos('5')">
+				<input type="button" value="6" onClick = "calculadoraCientifica.digitos('6')">
+				<input type="button" value="-" onClick = "calculadoraCientifica.resta()">	
+				<input type="button" value="|x|" onClick = "calculadoraCientifica.absoluto()">
+				<input type="button" value="1" onClick = "calculadoraCientifica.digitos('1')">
+				<input type="button" value="2" onClick = "calculadoraCientifica.digitos('2')">
+				<input type="button" value="3" onClick = "calculadoraCientifica.digitos('3')">
+				<input type="button" value="+" onClick = "calculadoraCientifica.suma()">
+				<input type="button" value="(" onClick = "calculadoraCientifica.parentesisIzquierdo()">
+				<input type="button" value=")" onClick = "calculadoraCientifica.parentesisDerecho()">
+				<input type="button" value="0" onClick = "calculadoraCientifica.digitos('0')">
+				<input type="button" value="." onClick = "calculadoraCientifica.punto()">
+				<input type="button" value="=" onClick = "calculadoraCientifica.igual()">
+			</article>
+		</section>
+	<script src="CalculadoraCientifica.js"></script>
+</body>
+</html>
