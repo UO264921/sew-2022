@@ -24,9 +24,12 @@ article{
 	background-color: rgb(172, 102, 84);
 	color: black;
 }
+label{
+	background-color: black;
+	color: white;
+	padding: 1em;
+}
 body {
-	padding-left: 10em;
-	padding-right: 10em;
 	text-align: center;
 	display: grid;
 	grid-template-areas: 
