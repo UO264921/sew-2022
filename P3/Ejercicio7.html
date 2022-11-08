@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="author" content="Iyan Sanjurjo" />
+        <meta name="description" content="Documento del ejercicio JQuery" />
+        <meta name="keywords" content="HTML" />
+        <meta name="viewport" content="width=device-width, initial scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>Ejercicio 7</title>
+        <link rel="stylesheet" href="Ejercicio7.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Ejercicio 7: JQuery</h1>
+        </header>
+        <article>
+            <h2>Funciones con JQuery</h2>
+            <section>
+                <h2>Tarea 1 - Mostrar y ocultar elementos</h2>
+                <button onClick="funciones.ocultar()">Ocultar párrafos del sitio web</button>
+                <button onClick="funciones.mostrar()">Mostrar párrafos del sitio web</button>
+            </section>
+            <section>
+                <h2>Tarea 2 - Modificar elementos</h2>
+                <p>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" value="Iyán">
+                </p>
+                <p>
+                    <label for="apellidos">Apellidos: </label>
+                    <input type="text" id="apellidos" value="Sanjurjo Luna">
+                </p>
+                <button onclick="funciones.verNombre()" >Nombre</button>
+                <button onclick="funciones.verApellidos()">Apellidos</button>
+                <p id="pColor">Este párrafo cambia de color si utilizas el botón</p>
+                <button onClick="funciones.colorea()">Colorea</button>
+                <p id="pModificar">Hombre</p>
+                <button onClick="funciones.hombre()">Hombre</button>
+                <button onClick="funciones.mujer()">Mujer</button>
+                <button onClick="funciones.otro()">Otro</button>
+            </section>
+            <section>
+                <h2>Tarea 3 - Añadir elementos</h2>
+                <button id="bInsertar" onClick="funciones.insertar()">Nuevo párrafo</button>
+            </section>
+            <section>
+                <h2>Tarea 4 - Eliminar elementos</h2>
+                <p id="pEliminar">Pulsa el botón para eliminar el párrafo.</p>
+                <button onClick="funciones.eliminar()">Eliminar el párrafo</button>
+            </section>
+            <section>
+                <h2>Tarea 5 - Recorrer elementos</h2>
+                <button onClick="funciones.recorrer()">Recorrido por los elementos del html</button>
+            </section>
+            <section>
+                <h2>Tarea 6 - Sumar filas y columnas</h2>
+                <h3>Tabla</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Columna 1</th>
+                            <th>Columna 2</th>
+                            <th>Columna 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5</td><td>4</td><td>3</td>
+                        </tr>
+                        <tr>
+                            <td>2</td><td>2</td><td>1</td>
+                        </tr>
+                        <tr>
+                            <td>10</td><td>0</td><td>1</td>
+                        </tr>
+                        <tr>
+                            <td>1</td><td>5</td><td>5</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <button id="bSumar" onClick="funciones.sumar()">Suma todos los valores de la tabla</button>
+            </section>
+        </article>
+        <script src="Ejercicio7.js"></script>
+    </body>
+</html>

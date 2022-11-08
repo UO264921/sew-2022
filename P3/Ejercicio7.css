@@ -1,0 +1,43 @@
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1em;
+}
+p {
+	text-align: left;
+}
+table {
+    border-collapse: collapse;
+}
+table tr td, table tr th {
+    border: 0.1em solid black;
+    text-align: center;
+    padding:1em;
+}
+header{
+    grid-area: header;
+}
+body {
+	background-color: rgb(255, 255, 255);
+    color: black;
+    display: grid;
+    grid-template-areas: 
+    ". header ."
+    ". article ."
+    ". article .";
+}
+
+section{
+    padding: 1em;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+article{
+    grid-area: article;
+}
