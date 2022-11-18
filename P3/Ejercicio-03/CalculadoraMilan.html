@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="author" content="Iyan Sanjurjo" />
+    <meta name="description" content="Documento de la Calculadora Basica" />
+    <meta name="keywords" content="HTML" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <meta charset="UTF-8" />
+	<title>Calculadora Basica</title>
+	<link rel="stylesheet" href="CalculadoraMilan.css"/>
+</head>
+<body>
+	<header>
+		<h1>Calculadora Básica</h1> 
+	</header>
+		<section>
+			<h2>Calculadora</h2>
+			<label for="pantalla">Salida</label>
+			<input title="pantalla" name="pantalla" id = "pantalla" type="text" disabled />
+			<article>
+				<h2>Milán</h2>
+				<input type="button" value="mrc" onClick = "calculadoraMilan.mrc()">
+				<input type="button" value="m-" onClick = "calculadoraMilan.mMenos()">
+				<input type="button" value="m+" onClick = "calculadoraMilan.mMas()">
+				<input type="button" value="/" onClick = "calculadoraMilan.division()">
+				<input type="button" value="%" onClick = "calculadoraMilan.modulo()">
+				<input type="button" value="+/-" onClick = "calculadoraMilan.masmenos()">
+				<input type="button" value="&#8730;" onClick = "calculadoraMilan.raiz()">
+				<input type="button" value="*" onClick = "calculadoraMilan.multiplicacion()">
+				<input type="button" value="7" onClick = "calculadoraMilan.digitos('7')">
+				<input type="button" value="8" onClick = "calculadoraMilan.digitos('8')">
+				<input type="button" value="9" onClick = "calculadoraMilan.digitos('9')">
+				<input type="button" value="-" onClick = "calculadoraMilan.resta()">
+				<input type="button" value="4" onClick = "calculadoraMilan.digitos('4')">
+				<input type="button" value="5" onClick = "calculadoraMilan.digitos('5')">
+				<input type="button" value="6" onClick = "calculadoraMilan.digitos('6')">
+				<input type="button" value="+" onClick = "calculadoraMilan.suma()">
+				<input type="button" value="1" onClick = "calculadoraMilan.digitos('1')">
+				<input type="button" value="2" onClick = "calculadoraMilan.digitos('2')">
+				<input type="button" value="3" onClick = "calculadoraMilan.digitos('3')">
+				<input type="button" value="=" onClick = "calculadoraMilan.igual()">	
+				<input type="button" value="." onClick = "calculadoraMilan.punto()">
+				<input type="button" value="0" onClick = "calculadoraMilan.digitos('0')">
+				<input type="button" value="C" onClick = "calculadoraMilan.borrar()">
+			</article>
+		</section>
+	<script src="CalculadoraMilan.js"></script>
+</body>
+</html>

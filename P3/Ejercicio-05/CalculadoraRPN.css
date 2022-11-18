@@ -1,0 +1,129 @@
+section {
+	display: grid;
+    grid-template-areas: 
+    "h2"
+    "label1"
+    "input1"
+    "label2"
+    "input2"
+    "article";
+    grid-template-columns: 100%;
+	background-color: #efefff;
+    color: black;
+    grid-area: section;
+    text-align: center;
+    border-style: solid;
+	border-width: 0.3em;
+	border-color: black;
+}
+h2{
+    grid-area: h2;
+    color: white;
+    background-color: rgb(53, 53, 53);
+    text-align: center;
+    padding: 0.4em;
+}
+body {
+	display: grid;
+    grid-template-areas: 
+    ". header . "
+    ". section . ";
+    grid-template-columns: 25% 50% 25%;
+}
+
+input[type=button] {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+    margin: 0.5em;
+	background-color: white;
+	color:black;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+	font-size: 1em;
+	text-align: center;
+}
+
+input[type=text] {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+    margin: 0.5em;
+	background-color: white;
+	color:black;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+	font-size: 1em;
+	text-align: center;
+}
+
+article{
+    grid-area: article;
+    display: grid;
+    grid-template-areas: 
+    "h2 h2 h2 h2 h2"
+    "input input input input input";
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+header{
+    grid-area: header;
+    text-align: center;
+}
+
+article>input:nth-child(13){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(14){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(15){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(18){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(19){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(20){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(23){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(24){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(25){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(29){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(12){
+	background-color: #ffb6b6;
+	color: black;
+}
+article>input:nth-child(16){
+	background-color: #ffb6b6;
+	color: black;
+}
+article>input:nth-child(31){
+	background-color: #b6ffbc;
+	color: black;
+}
