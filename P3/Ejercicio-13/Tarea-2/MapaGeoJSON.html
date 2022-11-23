@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="author" content="Iyan Sanjurjo" />
+        <meta name="description" content="Documento del ejercicio 13-2" />
+        <meta name="keywords" content="HTML" />
+        <meta name="viewport" content="width=device-width, initial scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>Ejercicio 13-2</title>
+        <link rel="stylesheet" href="MapaGeoJSON.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=mapaDinamicoGoogle.initMap"></script>
+    </head>
+    <body>
+        <h1>Mapa GeoJson</h1>
+        <section>
+            <h2>Introduce un archivo al sistema:</h2>
+            <label for="archivoTexto">Selecciona: </label><input type="file" id="archivoTexto" onchange="mapa.cargarMapa(this.files)">
+            <article>
+                <h3>Mapa</h3>
+            </article>
+        </section>
+        <script src="MapaGeoJSON.js"></script>
+    </body>
+</html>

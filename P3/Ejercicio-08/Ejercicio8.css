@@ -1,0 +1,28 @@
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 3em;
+}
+h3 {
+	font-size: 2em;
+}
+h4 {
+	font-size: 1.5em;
+}
+
+body {
+	background-color: white;
+    color: black;
+	padding: 2em 5em;
+}
+
+button {
+	text-align: center;
+	padding: 0.4em 1em;
+	margin: 0.8em;
+	font-weight: bold;
+	font-size: 1em;
+    background-color: antiquewhite;
+    color: black;
+}

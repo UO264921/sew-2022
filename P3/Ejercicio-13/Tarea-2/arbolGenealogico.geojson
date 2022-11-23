@@ -1,0 +1,36 @@
+{
+"type": "FeatureCollection",
+"name": "persona",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{   "type": "Feature", 
+    "properties": { "Name": " Primero Fernandez - Nacimiento ", "description": " Lugar de nacimiento = Valencia " }, 
+    "geometry": { "type": "Point", "coordinates": [ -0.3763353, 39.4697065 ] } 
+},
+{ "type": "Feature", "properties": { "Name": " Primero Fernandez - Residencia ", "description": " Lugar de residencia = Benidorm " }, "geometry": { "type": "Point", "coordinates": [ -0.1290929, 38.5406255 ] } },
+{ "type": "Feature", "properties": { "Name": " Segundo 1 Suarez - Nacimiento ", "description": " Lugar de nacimiento = Lugo " }, "geometry": { "type": "Point", "coordinates": [ -7.4739921, 43.0462247 ] } },
+{ "type": "Feature", "properties": { "Name": " Segundo 1 Suarez - Residencia ", "description": " Lugar de residencia = Santander " }, "geometry": { "type": "Point", "coordinates": [ -3.8099719, 43.4620412 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 1 Rodríguez - Nacimiento ", "description": " Lugar de nacimiento = Oviedo " }, "geometry": { "type": "Point", "coordinates": [ -5.844758, 43.3579649 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 1 Rodríguez - Residencia ", "description": " Lugar de residencia = Avilés " }, "geometry": { "type": "Point", "coordinates": [ -5.9222466, 43.5554436 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 2 Sanchez - Nacimiento ", "description": " Lugar de nacimiento = Luanco " }, "geometry": { "type": "Point", "coordinates": [ -5.7928008, 43.6157118 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 2 Sanchez - Residencia ", "description": " Lugar de residencia = Candás " }, "geometry": { "type": "Point", "coordinates": [ -5.7641846, 43.5900556 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 3 Fercho - Nacimiento ", "description": " Lugar de nacimiento = Gijón " }, "geometry": { "type": "Point", "coordinates": [ -5.66275, 43.5449422 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 3 Fercho - Residencia ", "description": " Lugar de residencia = A Coruña " }, "geometry": { "type": "Point", "coordinates": [ -8.3959425, 43.3709703 ] } },
+{ "type": "Feature", "properties": { "Name": " Segundo 2 Rodríguez - Nacimiento ", "description": " Lugar de nacimiento = León " }, "geometry": { "type": "Point", "coordinates": [ -5.9714151, 42.6341451 ] } },
+{ "type": "Feature", "properties": { "Name": " Segundo 2 Rodríguez - Residencia ", "description": " Lugar de residencia = Valladolid " }, "geometry": { "type": "Point", "coordinates": [ -4.728562, 41.6521328 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 4 Rodríguez - Nacimiento ", "description": " Lugar de nacimiento = Bilbao " }, "geometry": { "type": "Point", "coordinates": [ -2.9350039, 43.2630018 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 4 Rodríguez - Residencia ", "description": " Lugar de residencia = Granada " }, "geometry": { "type": "Point", "coordinates": [ -3.5995337, 37.1734995 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 5 Sanchez - Nacimiento ", "description": " Lugar de nacimiento = Sevilla " }, "geometry": { "type": "Point", "coordinates": [ -5.9953403, 37.3886303 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 5 Sanchez - Residencia ", "description": " Lugar de residencia = Cádiz " }, "geometry": { "type": "Point", "coordinates": [ -6.2928976, 36.5297438 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 6 Fercho - Nacimiento ", "description": " Lugar de nacimiento = Barcelona " }, "geometry": { "type": "Point", "coordinates": [ 2.1774322, 41.3828939 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 6 Fercho - Residencia ", "description": " Lugar de residencia = Zaragoza " }, "geometry": { "type": "Point", "coordinates": [ -0.8809428, 41.6521342 ] } },
+{ "type": "Feature", "properties": { "Name": " Segundo 3 García - Nacimiento ", "description": " Lugar de nacimiento = Leganés " }, "geometry": { "type": "Point", "coordinates": [ -3.76527, 40.3281942 ] } },
+{ "type": "Feature", "properties": { "Name": " Segundo 3 García - Residencia ", "description": " Lugar de residencia = Getafe " }, "geometry": { "type": "Point", "coordinates": [ -3.7302679, 40.3081807 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 7 Rodríguez - Nacimiento ", "description": " Lugar de nacimiento = Caceres " }, "geometry": { "type": "Point", "coordinates": [ -6.3716761, 39.4745175 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 7 Rodríguez - Residencia ", "description": " Lugar de residencia = Badajoz " }, "geometry": { "type": "Point", "coordinates": [ -6.9801425, 38.8896436 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 8 Sanchez - Nacimiento ", "description": " Lugar de nacimiento = Pamplona " }, "geometry": { "type": "Point", "coordinates": [ -1.6440304, 42.8182536 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 8 Sanchez - Residencia ", "description": " Lugar de residencia = San Sebastián " }, "geometry": { "type": "Point", "coordinates": [ -1.9838889, 43.3224219 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 9 Fercho - Nacimiento ", "description": " Lugar de nacimiento = Málaga " }, "geometry": { "type": "Point", "coordinates": [ -4.4216366, 36.7213028 ] } },
+{ "type": "Feature", "properties": { "Name": " Tercero 9 Fercho - Residencia ", "description": " Lugar de residencia = Almería " }, "geometry": { "type": "Point", "coordinates": [ -2.4628135, 36.8414197 ] } }
+]
+}

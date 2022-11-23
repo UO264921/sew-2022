@@ -1,0 +1,23 @@
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 2em;
+}
+body {
+	background-color: white;
+	padding: 2em 5em;
+	color: black;
+}
+canvas{
+	border: 2px solid black;
+}
+section:nth-child(3)>h2{
+	border: 0.2em black solid;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	font-size: 1.2em;
+	width: 30%;
+	text-align: center;
+	background-color: rgb(219, 250, 207);
+	color: black;
+}

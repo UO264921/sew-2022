@@ -1,0 +1,14 @@
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 2em;
+}
+body {
+	background-color: white;
+    color: black;
+}
+section {
+    height: 50em;
+    width: 50%;
+}
