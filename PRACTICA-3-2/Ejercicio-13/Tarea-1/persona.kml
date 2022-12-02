@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"> 
+<Document id='Posicion Geografica Usuarios'>
+<Placemark>
+<name> Primero Fernandez - Nacimiento </name>
+<description> Lugar de nacimiento = Valencia </description>
+<Point>
+ <coordinates> -0.3763353, 39.4697065, 237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Primero Fernandez - Residencia </name>
+<description> Lugar de residencia = Benidorm </description>
+<Point>
+ <coordinates> -0.1290929, 38.5406255, 26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Segundo 1 Suarez - Nacimiento </name>
+<description> Lugar de nacimiento = Lugo </description>
+<Point>
+ <coordinates> -7.4739921, 43.0462247, 237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Segundo 1 Suarez - Residencia </name>
+<description> Lugar de residencia = Santander </description>
+<Point>
+ <coordinates> -3.8099719, 43.4620412, 26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 1 Rodríguez - Nacimiento </name>
+<description> Lugar de nacimiento = Oviedo </description>
+<Point>
+ <coordinates> -5.844758, 43.3579649, 237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 1 Rodríguez - Residencia </name>
+<description> Lugar de residencia = Avilés </description>
+<Point>
+ <coordinates> -5.9222466, 43.5554436, 26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 2 Sanchez - Nacimiento </name>
+<description> Lugar de nacimiento = Luanco </description>
+<Point>
+ <coordinates> -5.7928008, 43.6157118, 16</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 2 Sanchez - Residencia </name>
+<description> Lugar de residencia = Candás </description>
+<Point>
+ <coordinates> -5.7641846, 43.5900556, 22</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 3 Fercho - Nacimiento </name>
+<description> Lugar de nacimiento = Gijón </description>
+<Point>
+ <coordinates> -5.66275, 43.5449422, 26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 3 Fercho - Residencia </name>
+<description> Lugar de residencia = A Coruña </description>
+<Point>
+ <coordinates> -8.3959425, 43.3709703, 55</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Segundo 2 Rodríguez - Nacimiento </name>
+<description> Lugar de nacimiento = León </description>
+<Point>
+ <coordinates> -5.9714151, 42.6341451, 237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Segundo 2 Rodríguez - Residencia </name>
+<description> Lugar de residencia = Valladolid </description>
+<Point>
+ <coordinates> -4.728562, 41.6521328, 26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 4 Rodríguez - Nacimiento </name>
+<description> Lugar de nacimiento = Bilbao </description>
+<Point>
+ <coordinates> -2.9350039, 43.2630018, 237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 4 Rodríguez - Residencia </name>
+<description> Lugar de residencia = Granada </description>
+<Point>
+ <coordinates> -3.5995337, 37.1734995, 26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 5 Sanchez - Nacimiento </name>
+<description> Lugar de nacimiento = Sevilla </description>
+<Point>
+ <coordinates> -5.9953403, 37.3886303, 237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 5 Sanchez - Residencia </name>
+<description> Lugar de residencia = Cádiz </description>
+<Point>
+ <coordinates> -6.2928976, 36.5297438, 26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 6 Fercho - Nacimiento </name>
+<description> Lugar de nacimiento = Barcelona </description>
+<Point>
+ <coordinates> 2.1774322, 41.3828939, 237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 6 Fercho - Residencia </name>
+<description> Lugar de residencia = Zaragoza </description>
+<Point>
+ <coordinates> -0.8809428, 41.6521342, 26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Segundo 3 García - Nacimiento </name>
+<description> Lugar de nacimiento = Leganés </description>
+<Point>
+ <coordinates> -3.76527, 40.3281942, 237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Segundo 3 García - Residencia </name>
+<description> Lugar de residencia = Getafe </description>
+<Point>
+ <coordinates> -3.7302679, 40.3081807, 26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 7 Rodríguez - Nacimiento </name>
+<description> Lugar de nacimiento = Caceres </description>
+<Point>
+ <coordinates> -6.3716761, 39.4745175, 237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 7 Rodríguez - Residencia </name>
+<description> Lugar de residencia = Badajoz </description>
+<Point>
+ <coordinates> -6.9801425, 38.8896436, 26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 8 Sanchez - Nacimiento </name>
+<description> Lugar de nacimiento = Pamplona </description>
+<Point>
+ <coordinates> -1.6440304, 42.8182536, 237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 8 Sanchez - Residencia </name>
+<description> Lugar de residencia = San Sebastián </description>
+<Point>
+ <coordinates> -1.9838889, 43.3224219, 26</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 9 Fercho - Nacimiento </name>
+<description> Lugar de nacimiento = Málaga </description>
+<Point>
+ <coordinates> -4.4216366, 36.7213028, 237</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name> Tercero 9 Fercho - Residencia </name>
+<description> Lugar de residencia = Almería </description>
+<Point>
+ <coordinates> -2.4628135, 36.8414197, 26</coordinates>
+</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,15 @@
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 2em;
+}
+body {
+	background-color: white;
+	padding: 2em 5em;
+	color: black;
+}
+
+section{
+    border: 0.2em solid black;
+}

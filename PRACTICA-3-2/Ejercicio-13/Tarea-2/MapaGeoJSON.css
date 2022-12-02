@@ -1,0 +1,18 @@
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 2em;
+}
+body {
+	background-color: white;
+    color:black;
+	padding: 2em 5em;
+}
+input {
+	width: 100%;
+}
+section>article{
+    height: 50em;
+    width: 50%;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="author" content="Iyan Sanjurjo" />
+        <meta name="description" content="Documento del ejercicio 14" />
+        <meta name="keywords" content="HTML" />
+        <meta name="viewport" content="width=device-width, initial scale=1.0" />
+        <meta charset="UTF-8" />
+        <title>Ejercicio 14</title>
+        <link rel="stylesheet" href="Ejercicio14.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Ejercicio 14</h1>
+        <section>
+            <h2>Arrastra el archivo al cuadro para ver su tamaño</h2>
+            <canvas id="target"
+            ondrop="panel.pintar()" ondragover="panel.allowDrop(event)"
+            width="400" height="150">
+            </canvas>
+            <h3>Tamaño:</h3>
+        </section>
+        <section>
+            <h2 draggable="true">No hay fichero seleccionado</h2>
+            <label for="archivoTexto">Selecciona un fichero: </label><input type="file" id="archivoTexto" onchange="panel.texto(this.files)">
+        </section>
+        <script src="Ejercicio14.js"></script>
+    </body>
+</html>
