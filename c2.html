@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="author" content="Iyan Sanjurjo" />
+    <meta name="description" content="Documento de la Calculadora Cientifica" />
+    <meta name="keywords" content="HTML" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <meta charset="UTF-8" />
+	<title>Calculadora Científica</title>
+	<link rel="stylesheet" href="CalculadoraCientifica.css"/>
+</head>
+<body>
+	<header>
+		<h1>Calculadora Científica</h1> 
+	</header>
+	
+		<form action='#' method='post' name='calculadora'>
+		<section>
+			<h2>Calculadora</h2>
+			<label for='pantalla'>Salida</label>
+			<input title='pantalla' name='pantalla' id = 'pantalla' type='text' value='' readonly />
+			<article>
+				<h2>Milán</h2>
+				<input type='submit' name='cuadrado' value='x&#178;' onClick = 'calculadoraCientifica.cuadrado()'>
+				<input type='submit' name='potencia' value='x&#696;' onClick = 'calculadoraCientifica.potencia()'>
+				<input type='submit' name='seno' value='sin' onClick = 'calculadoraCientifica.seno()'>
+				<input type='submit' name='coseno' value='cos' onClick = 'calculadoraCientifica.coseno()'>
+				<input type='submit' name='tangente' value='tan' onClick = 'calculadoraCientifica.tangente()'>
+				<input type='submit' name='raiz' value='&#8730;' onClick = 'calculadoraCientifica.raiz()'>
+				<input type='submit' name='potdiez' value='10&#829;' onClick ='calculadoraCientifica.potenciaDiez()'>
+				<input type='submit' name='log' value='log' onClick = 'calculadoraCientifica.logaritmo()'>
+				<input type='submit' name='exp' value='exp' onClick = 'calculadoraCientifica.exponencial()'>
+				<input type='submit' name='mod' value='mod' onClick = 'calculadoraCientifica.modulo()'>
+				<input type='submit' name='m-' value='m-' onClick = 'calculadoraCientifica.mMenos()'>
+				<input type='submit' name='m+' value='m+' onClick = 'calculadoraCientifica.mMas()'>
+				<input type='submit' name='cosec' value='csc' onClick = 'calculadoraCientifica.cosecante()'>
+				<input type='submit' name='sec' value='sec' onClick = 'alculadoraCientifica.secante()'>
+				<input type='submit' name='*' value='&#10005;' onClick = 'calculadoraCientifica.multiplicacion()'>
+				<input type='submit' name='mrc' value='mrc' onClick = 'calculadoraCientifica.mrc()'>
+				<input type='submit' name='borrar' value='CE' onClick = 'calculadoraCientifica.borrar()'>
+				<input type='submit' name='borrar' value='C' onClick = 'calculadoraCientifica.borrar()'>
+				<input type='submit' name='bdig' value='&#129092;' onClick = 'calculadoraCientifica.borrarDigito()'>
+				<input type='submit' name='/' value='&#247;' onClick = 'calculadoraCientifica.division()'>
+				<input type='submit' name='pi' value='&#120587;' onClick = 'calculadoraCientifica.pi()'>
+				<input type='submit' name='7' value='7' onClick = 'calculadoraCientifica.digitos(7)'>
+				<input type='submit' name='8' value='8' onClick = 'calculadoraCientifica.digitos(8)'>
+				<input type='submit' name='9' value='9' onClick = 'calculadoraCientifica.digitos(9)'>
+				<input type='submit' name='+' value='+' onClick = 'calculadoraCientifica.suma()'>				
+				<input type='submit' name='fact' value='n!' onClick = 'calculadoraCientifica.factorial()'>
+				<input type='submit' name='4' value='4' onClick = 'calculadoraCientifica.digitos(4)'>
+				<input type='submit' name='5' value='5' onClick = 'calculadoraCientifica.digitos(5)'>
+				<input type='submit' name='6' value='6' onClick = 'calculadoraCientifica.digitos(6)'>
+				<input type='submit' name='-' value='-' onClick = 'calculadoraCientifica.resta()'>					
+				<input type='submit' name='masmenos' value='+/-' onClick = 'calculadoraCientifica.masmenos()'>
+				<input type='submit' name='1' value='1' onClick = 'calculadoraCientifica.digitos(1)'>
+				<input type='submit' name='2' value='2' onClick = 'calculadoraCientifica.digitos(2)'>
+				<input type='submit' name='3' value='3' onClick = 'calculadoraCientifica.digitos(3)'>
+				<input type='submit' name=' ' value=' ' disabled>
+				<input type='submit' name='pizq' value='(' onClick = 'calculadoraCientifica.parentesisIzquierdo()'>
+				<input type='submit' name='pdch' value=')' onClick = 'calculadoraCientifica.parentesisDerecho()'>
+				<input type='submit' name='0' value='0' onClick = 'calculadoraCientifica.digitos(0)'>
+				<input type='submit' name='punto' value='.' onClick = 'calculadoraCientifica.punto()'>
+				<input type='submit' name='igual' value='=' onClick = 'calculadoraCientifica.igual()'>
+			</article>
+		</section>
+		</form>
+		</body>
+</html>

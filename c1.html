@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="author" content="Iyan Sanjurjo" />
+    <meta name="description" content="Documento de la Calculadora Milan" />
+    <meta name="keywords" content="HTML" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <meta charset="UTF-8" />
+	<title>Calculadora Milan</title>
+	<link rel="stylesheet" href="CalculadoraMilan.css"/>
+</head>
+<body>
+	<header>
+		<h1>Calculadora Milan</h1> 
+	</header>
+	
+		<form action='#' method='post' name='calculadora'>
+		<section>
+			<h2>Calculadora</h2>
+			<label for='pantalla'>Salida</label>
+			<input title='pantalla' name='pantalla' id = 'pantalla' type='text' value='' readonly />
+			<article>
+				<h2>Milán</h2>
+				<input type='submit' name='mrc' value='mrc' onClick = 'calculadoraMilan.mrc()'>
+				<input type='submit' name='m-' value='m-' onClick = 'calculadoraMilan.mMenos()'>
+				<input type='submit' name='m+' value='m+' onClick = 'calculadoraMilan.mMas()'>
+				<input type='submit' name='/' value='/' onClick = 'calculadoraMilan.division()'>
+				<input type='submit' name='mod' value='%' onClick = 'calculadoraMilan.modulo()'>
+				<input type='submit' name='masmenos' value='+-' onClick = 'calculadoraMilan.masmenos()'>
+				<input type='submit' name='raiz' value='&#8730;' onClick = 'calculadoraMilan.raiz()'>
+				<input type='submit' name='*' value='*' onClick = 'calculadoraMilan.multiplicacion()'>
+				<input type='submit' name='7' value='7' onClick = 'calculadoraMilan.digitos(7)'>
+				<input type='submit' name='8' value='8' onClick = 'calculadoraMilan.digitos(8)'>
+				<input type='submit' name='9' value='9' onClick = 'calculadoraMilan.digitos(9)'>
+				<input type='submit' name='-' value='-' onClick = 'calculadoraMilan.resta()'>
+				<input type='submit' name='4' value='4' onClick = 'calculadoraMilan.digitos(4)'>
+				<input type='submit' name='5' value='5' onClick = 'calculadoraMilan.digitos(5)'>
+				<input type='submit' name='6' value='6' onClick = 'calculadoraMilan.digitos(6)'>
+				<input type='submit' name='+' value='+' onClick = 'calculadoraMilan.suma()'>
+				<input type='submit' name='1' value='1' onClick = 'calculadoraMilan.digitos(1)'>
+				<input type='submit' name='2' value='2' onClick = 'calculadoraMilan.digitos(2)'>
+				<input type='submit' name='3' value='3' onClick = 'calculadoraMilan.digitos(3)'>
+				<input type='submit' name='=' value='=' onClick = 'calculadoraMilan.igual()'>	
+				<input type='submit' name='punto' value='.' onClick = 'calculadoraMilan.punto()'>
+				<input type='submit' name='0' value='0' onClick = 'calculadoraMilan.digitos(0)'>
+				<input type='submit' name='C' value='C' onClick = 'calculadoraMilan.borrar()'>
+			</article>
+		</section>
+		</form>
+		</body>
+</html>

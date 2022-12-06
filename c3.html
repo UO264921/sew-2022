@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="author" content="Iyan Sanjurjo" />
+    <meta name="description" content="Documento de la Calculadora RPN" />
+    <meta name="keywords" content="HTML" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <meta charset="UTF-8" />
+	<title>Calculadora RPN</title>
+	<link rel="stylesheet" href="CalculadoraRPN.css"/>
+</head>
+<body>
+	<header>
+		<h1>Calculadora RPN</h1> 
+	</header>
+	
+		<form action='#' method='post' name='calculadora'>
+		<section class='cuerpo'>
+			<h2>Calculadora</h2>
+			<label for='pila'>PILA</label>
+			<input title='pila' type='text' id='pila' value='' readonly />
+			<label for='pantalla'>RESULTADO</label>
+			<input title='pantalla' type='text' id='pantalla' value='' readonly />
+			<article>
+				<h2>RPN</h2>
+				<input type='submit' name='seno' value='sin' onClick = 'calculadoraRPN.seno()'>
+				<input type='submit' name='coseno' value='cos' onClick = 'calculadoraRPN.coseno()'>
+				<input type='submit' name='tangente' value='tan' onClick = 'calculadoraRPN.tangente()'>
+				<input type='submit' name='cuadrado' value='x&#178;' onClick = 'calculadoraRPN.cuadrado()'>
+				<input type='submit' name='potencia' value='x&#696;' onClick = 'calculadoraRPN.potencia()'>
+				<input type='submit' name='cosecante' value='csc' onClick = 'calculadoraRPN.cosecante()'>
+				<input type='submit' name='secante' value='sec' onClick = 'calculadoraRPN.secante()'>
+				<input type='submit' name='cotangente' value='cot' onClick = 'calculadoraRPN.cotangente()'>
+				<input type='submit' name='raiz' value='&#8730;' onClick = 'calculadoraRPN.raiz()'>
+				<input type='submit' name='exponencial' value='Exp' onClick = 'calculadoraRPN.exponencial()'>
+				<input type='submit' name='desapilar' value='CE' onClick = 'calculadoraRPN.desapilar()'>
+				<input type='submit' name='7' value='7' onClick = 'calculadoraRPN.digitos(7)'>
+				<input type='submit' name='8' value='8' onClick = 'calculadoraRPN.digitos(8)'>
+				<input type='submit' name='9' value='9' onClick = 'calculadoraRPN.digitos(9)'>
+				<input type='submit' name='C' value='C' onClick = 'calculadoraRPN.borrarTodo()'>
+				<input type='submit' name='borrar' value='&#129092;' onClick = 'calculadoraRPN.borrarDigito()'>
+				<input type='submit' name='4' value='4' onClick = 'calculadoraRPN.digitos(4)'>
+				<input type='submit' name='5' value='5' onClick = 'calculadoraRPN.digitos(5)'>
+				<input type='submit' name='6' value='6' onClick = 'calculadoraRPN.digitos(6)'>
+				<input type='submit' name='/' value='&#247;' onClick = 'calculadoraRPN.division()'>
+				<input type='submit' name='*' value='&#10005;' onClick = 'calculadoraRPN.multiplicacion()'>
+				<input type='submit' name='1' value='1' onClick = 'calculadoraRPN.digitos(1)'>
+				<input type='submit' name='2' value='2' onClick = 'calculadoraRPN.digitos(2)'>
+				<input type='submit' name='3' value='3' onClick = 'calculadoraRPN.digitos(3)'>
+				<input type='submit' name='fact' value='n!' onClick = 'calculadoraRPN.factorial()'>
+				<input type='submit' name='-' value='-' onClick = 'calculadoraRPN.resta()'>	
+				<input type='submit' name='+' value='+' onClick = 'calculadoraRPN.suma()'>
+				<input type='submit' name='0' value='0' onClick = 'calculadoraRPN.digitos(0)'>
+				<input type='submit' name='punto' value='.' onClick = 'calculadoraRPN.punto()'>
+				<input type='submit' name='apilar' value='enter' onClick = 'calculadoraRPN.apilar()'>
+			</article>
+    	</section>
+		</form>
+		</body>
+</html>
