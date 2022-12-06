@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="author" content="Iyan Sanjurjo" />
+    <meta name="description" content="Documento del ejercicio 7" />
+    <meta name="keywords" content="HTML" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <meta charset="UTF-8" />
+	<title>Ejercicio 7</title>
+	<link rel="stylesheet" href="Ejercicio7.css"/>
+</head>
+<body>
+	<header>
+		<h1>Ejercicio 7: Centro de adopción</h1>
+	</header>
+    <section>
+        <form action='#' method='post' name='formulario' enctype='multipart/form-data'>
+			<h2>Búsqueda de animales</h2>
+			<label for="buscarEtiqueta">Realiza una búsqueda por etiqueta: </label><input type="text" id="buscarEtiqueta" name="buscarEtiqueta" placeholder="0001..."/>
+			<button id='bEtiqueta' type='submit' name='bEtiqueta'>Buscar animal</button>
+			<label for="buscarAdopcion">Realiza una búsqueda por DNI del dueño: </label><input type="text" id="buscarAdopcion" name="buscarAdopcion" placeholder="DNI..."/>
+			<button id='bAdopcion' type='submit' name='bAdopcion'>Buscar animal</button>
+			<label for="buscarCentro">Realiza una búsqueda por ciudad: </label><input type="text" id="buscarCentro" name="buscarCentro" placeholder="Oviedo..."/>
+			<button id='bCentro' type='submit' name='bCentro'>Buscar animal</button>
+			<h2>Búsqueda de vacunas</h2>
+			<label for="buscarVacunas">Realiza una búsqueda de vacunas por etiqueta: </label><input type="text" id="buscarVacunas" name="buscarVacunas" placeholder="0001..."/>
+			<button id='bVacunas' type='submit' name='bVacunas'>Buscar vacunas</button>
+        </form>
+    </section>
+	<section><h2> Resultados para la etiqueta dada: </h2><p>Etiqueta = 1</p><p>Tipo de animal = Perro</p><p>Nombre = Billy</p></section>	</body>
+</html>

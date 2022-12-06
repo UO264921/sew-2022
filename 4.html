@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta name="author" content="Iyan Sanjurjo" />
+    <meta name="description" content="Documento del ejercicio 6" />
+    <meta name="keywords" content="HTML" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <meta charset="UTF-8" />
+	<title>Ejercicio 6</title>
+	<link rel="stylesheet" href="Ejercicio6.css"/>
+</head>
+<body>
+	<header>
+		<h1>Ejercicio 6</h1>
+	</header>
+    <section>
+        <form action='#' method='post' name='formulario' enctype='multipart/form-data'>
+            <h2>Crear Base de Datos</h2>
+            <button id='crear' type='submit' name='crear'>Crear Base de datos</button>
+            <h2>Crear una tabla</h2>
+            <button id='crearTabla' type='submit' name='crearTabla'>Crear tabla PruebasUsabilidad</button>
+            <h2>Insertar datos</h2>
+            <label for="dni">DNI: </label><input type="text" id="dni" name="dni" placeholder="DNI..."/>
+            <label for="nombre">Nombre: </label><input type="text" id="nombre" name="nombre" placeholder="Nombre..."/>
+            <label for="apellidos">Apellidos: </label><input type="text" id="apellidos" name="apellidos" placeholder="Apellidos..."/>
+            <label for="email">Email: </label><input type="text"  id="email" name="email" placeholder="Email..."/>
+            <label for="telefono">Teléfono: </label><input type="text"  id="telefono" name="telefono" placeholder="Teléfono..."/>
+            <label for="edad">Edad: </label><input type="text"  id="edad" name="edad" placeholder="Edad..."/>
+            <label for="sexo">Sexo (H|M): </label><input type="text"  id="sexo" name="sexo" placeholder="Sexo..."/>
+            <label for="nivel">Nivel informático (0-10): </label><input type="text"  id="nivel" name="nivel" placeholder="Nivel..."/>
+            <label for="tiempo">Tiempo en hacer la tarea (seg): </label><input type="text"  id="tiempo" name="tiempo" placeholder="Tiempo..."/>
+            <label for="correcto">Tarea correcta: </label><input type="text"  id="correcto" name="correcto" placeholder="Sí o no..."/>
+            <label for="comentarios">Comentarios: </label><input type="text" class="bigInput" id="comentarios" name="comentarios" placeholder="Comentarios..."/>
+            <label for="propuestas">Propuestas: </label><input type="text" class="bigInput" id="propuestas" name="propuestas" placeholder="Propuestas..."/>
+            <label for="valoracion">Valoración de la aplicación (0-10): </label><input type="text"  id="valoracion" name="valoracion" placeholder="Valoración..."/>
+            <button id='bInsertar' type='submit' name='bInsertar'>Insertar datos</button>
+            <h2>Buscar datos</h2>
+            <label for="buscarDni">Realiza una búsqueda por DNI: </label><input type="text" id="buscarDni" name="buscarDni" placeholder="DNI..."/>
+            <button id='bBuscar' type='submit' name='bBuscar'>Buscar datos</button>
+            <h2>Modificar datos</h2>
+            <label for="modificarDni">DNI: </label><input type="text"  id="modificarDni" name="modificarDni" placeholder="DNI..."/>
+            <label for="modificarNombre">Nombre: </label><input type="text"  id="modificarNombre" name="modificarNombre" placeholder="Nuevo nombre..."/>
+            <label for="modificarApellidos">Apellidos: </label><input type="text"  id="modificarApellidos" name="modificarApellidos" placeholder="Nuevos apellidos..."/>
+            <label for="modificarEmail">Email: </label><input type="text"  id="modificarEmail" name="modificarEmail" placeholder="Nuevo e-mail..."/>
+            <label for="modificarTelefono">Teléfono: </label><input type="text"  id="modificarTelefono" name="modificarTelefono" placeholder="Nuevo teléfono..."/>
+            <label for="modificarEdad">Edad: </label><input type="text"  id="modificarEdad" name="modificarEdad" placeholder="Nueva edad..."/>
+            <label for="modificarSexo">Sexo (H|M): </label><input type="text"  id="modificarSexo" name="modificarSexo" placeholder="Nuevo sexo..."/>
+            <label for="modificarNivel">Nivel informático (0-10): </label><input type="text"  id="modificarNivel" name="modificarNivel" placeholder="Nuevo nivel..."/>
+            <label for="modificarTiempo">Tiempo en hacer la tarea (seg): </label><input type="text"  id="modificarTiempo" name="modificarTiempo" placeholder="Nuevo tiempo..."/>
+            <label for="modificarCorrecto">Tarea correcta: </label><input type="text"  id="modificarCorrecto" name="modificarCorrecto" placeholder="Sí o no..."/>
+            <label for="modificarComentario">Comentarios: </label><input type="text" class="bigInput" id="modificarComentario" name="modificarComentario" placeholder="Nuevos comentarios..."/>
+            <label for="modificarPropuestas">Propuestas: </label><input type="text" class="bigInput" id="modificarPropuestas" name="modificarPropuestas" placeholder="Nuevas propuestas..."/>
+            <label for="modificarValoracion">Valoración de la aplicación (0-10): </label><input type="text"  id="modificarValoracion" name="modificarValoracion" placeholder="Nueva valoración..."/>
+            <button id='bModificar' type='submit' name='bModificar'>Modificar datos</button>
+            <h2>Eliminar datos</h2>
+            <label for="eliminarDni">DNI: </label><input type="text"  id="eliminarDni" name="eliminarDni" placeholder="DNI..."/>
+            <button id='bEliminar' type='submit' name='bEliminar'>Eliminar datos</button>
+            <h2>Generar informe</h2>
+            <button id='bInforme' type='submit' name='bInforme'>Generar informe</button>
+            <h2>Cargar datos desde un archivo CSV en una tabla de la Base de Datos</h2>
+            <label for='archivo'>Selecciona un archivo: </label><input type='file' id='archivo' name='archivo'/>
+            <button id='bCargar' type='submit' name='bCargar'>Cargar datos</button>
+            <h2>Exportar datos a un archivo en formato CSV los datos desde una tabla de la Base de Datos</h2>
+            <button id='bExportar' type='submit' name='bExportar'>Exportar datos</button>
+        </form>
+        <h2>Resultados obtenidos</h2>
+    </section>
+	<p>Conexión establecida ---> localhost via TCP/IP</p><p>--- Se ha establecido la conexión ---</p><p>Informe de la tabla 'PruebasUsabilidad':</p><p>Edad media: 44</p><p>Porcentaje de hombres: 100% Porcentaje de mujeres: 0%</p><p>Media del nivel informático: 7</p><p>Tiempo medio para hacer la tarea = 170</p><p>% Usuarios que realizan la tarea correctamente = 0%</p><p>Media de la calificación de la aplicación = 8</p>	</body>
+</html>
