@@ -1,0 +1,19 @@
+h1 {
+	font-size: 4em;
+}
+h2 {
+	font-size: 2em;
+}
+p {
+	text-align: left;
+}
+body {
+	background-color: rgb(255, 255, 255);
+	color: black;
+	padding: 2em 5em;
+}
+label, input {
+	display: block;
+	grid-template-areas: "";
+    padding: 0.3em;
+}

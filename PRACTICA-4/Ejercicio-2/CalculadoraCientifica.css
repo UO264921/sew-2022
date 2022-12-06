@@ -1,0 +1,139 @@
+section {
+	grid-area:section;
+	background-color: #d8d6ff;
+	color:black;
+	border-style: solid;
+	border-width: 0.3em;
+	border-color: black;
+	display: grid;
+	grid-template-areas: 
+	"h2"
+	"label"
+	"text"
+	"article";
+	grid-template-columns: 100%;
+}
+header{
+	grid-area: header;
+}
+
+article>input:nth-child(23){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(24){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(25){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(35){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(28){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(29){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(30){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(33){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(34){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(39){
+	background-color: #d8d6ff;
+	color: black;
+}
+article>input:nth-child(19){
+	background-color: #ffb0b0;
+	color: black;
+}
+article>input:nth-child(41){
+	background-color: #c1ffc5;
+	color: black;
+}
+
+h1{
+	font-size: 3em;
+}
+h2{
+	grid-area: h2;
+	color: white;
+	background-color: rgb(53, 53, 53);
+	text-align: center;
+	padding: 0.4em;
+}
+article{
+	display: grid;
+	grid-template-areas: 
+	"h2 h2 h2 h2 h2"
+	"input input input input input";
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	background-color: #efefff;
+	color: black;
+}
+label{
+	grid-area: label;
+	color: rgb(0, 0, 0);
+	background-color: #d8d6ff;
+	padding: 0.2em;
+	font-size: 1.2em;
+}
+body {
+	text-align: center;
+	display: grid;
+	grid-template-areas: 
+	". header ."
+	". form ."
+	". form ."
+	". form .";
+	grid-template-columns: 25% 50% 25%;
+	
+}
+
+form{
+	grid-area: form;
+}
+
+input[type=submit]{
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin: 0.5em;
+	background-color: white;
+	color:black;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+	font-size: 1em;
+}
+
+input[type=text]{
+	grid-area: text;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: white;
+	color:black;
+	border-style: solid;
+	border-width: 0.1em;
+	border-color: black;
+	font-size: 1em;
+	text-align: center;
+}
+
